@@ -1,0 +1,48 @@
+body {
+  background-color: #bab8ad;
+  margin: 0 10%;
+  font-family: serif;
+  }
+
+h1 {  text-align: center;  font-family: "bristol", serif;
+  font-size: 5em;  font-weight: normal;  text-transform: uppercase;  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #000000;}h2 {
+  font-family: "bristol", serif;
+  text-align: left;  color: #fff;  font-size: 2em;
+  text-transform: uppercase;}
+
+h3 {
+  font-family: "bristol", serif;
+  text-align: center;  color: #fff;  font-size: 2em;}
+
+h4 {
+  font-family: "bristol", serif;
+  text-align: right;  color: #fff;  font-size: 2em;}
+
+
+li {
+  font-family: "bristol", serif;
+  text-align: left;  color: #000000;  font-size: 1em;
+  list-style-type: none;
+  text-transform: uppercase; }
+
+@font-face{
+  font-family: "Bristol"; 
+  src: url ("Bristol.otf")
+  format("truetype");
+}
+
+.row{
+  display: block;
+  width: 100%;
+  margin-bottom: 30px; 
+  overflow: hidden;
+  margin-left: 100px;
+}
+.restaurant{
+  float: left;
+  width: 30%;
+  margin-right: 30px;
+  text-align: center;
+}
