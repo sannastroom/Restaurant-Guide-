@@ -14,7 +14,8 @@ h1 {  text-align: center;  font-family: "bristol", serif;
 
 h3 {
   font-family: "bristol", serif;
-  text-align: center;  color: #fff;  font-size: 2em;}
+  text-align: left;  color: #fff;  font-size: 2.5em;
+  text-transform: uppercase;  margin-top: 30px;}
 
 h4 {
   font-family: "bristol", serif;
@@ -46,3 +47,29 @@ li {
   margin-right: 30px;
   text-align: center;
 }
+footer {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.5em
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+  a:link,
+  a:visited {
+    color: black;
+    text-decoration: none; 
+}
+  a:hover{
+    color: white;
+}
+a:active{
+    color: white;
+}
+
+
+
+
+
+
